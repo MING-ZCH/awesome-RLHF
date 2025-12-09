@@ -23,6 +23,7 @@ Welcome to follow and star!
   - [Codebases](#codebases)
   - [Dataset](#dataset)
   - [Blogs](#blogs)
+  - [Books](#books)
   - [Other Language Support](#other-language-support)
   - [Contributing](#contributing)
   - [License](#license)
@@ -82,10 +83,44 @@ format:
 ```
 
 ### 2025
+
+- [A Simple and Effective Reinforcement Learning Method for Text-to-Image Diffusion Fine-tuning](https://arxiv.org/pdf/2503.00897)
+  - Shashank Gupta, Chaitanya Ahuja, Tsung-Yu Lin, Sreya Dutta Roy, Harrie Oosterhuis, Maarten de Rijke, and Satya Narayan Shukla.
+  - Keyworks: Diffusion Model, REINFORCE, PPO
+
+- [Differential Information: An Information-Theoretic Perspective on Preference Optimization](https://arxiv.org/abs/2505.23761)
+  - Yunjae Won, Hyunji Lee, Hyeonbin Hwang, Minjoon Seo
+  - Keyword: Preference Optimization, Information-Theoretic Analysis, Log-Ratio Reward Parameterization, Data Distribution, Log-Likelihood Displacement
+
+- [Generalist Reward Models: Found Inside Large Language Models](https://arxiv.org/abs/2506.23235)
+  - Yi-Chen Li, Tian Xu, Yang Yu, Xuqin Zhang, Xiong-Hui Chen, Zhongxiang Ling, Ningjing Chao, Lei Yuan, Zhi-Hua Zhou
+  - Keyword: Offline Inverse RL, LLM-as-a-judge, Training-free, Alignment
+
+- [A Unified Pairwise Framework for RLHF: Bridging Generative Reward Modeling and Policy Optimization](https://arxiv.org/abs/2504.04950)
+  - Wenyuan Xu, Xiaochen Zuo, Chao Xin, Yu Yue, Lin Yan, Yonghui Wu
+  - Keyword: Generative Pairwise Reward Model, Policy Optimization, Framework
+
+- [Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2503.22230)
+  - Wei Shen, Guanlin Liu, Zheng Wu, Ruofei Zhu, Qingping Yang, Chao Xin, Yu Yue, Lin Yan
+  - Keyword: Data Scaling, Reward Hacking, LLMs
+
+- [RLTHF: Targeted Human Feedback for LLM Alignment](https://arxiv.org/abs/2502.13417)
+  - Yifei Xu, Tusher Chakraborty, Emre Kıcıman, Bibek Aryal, Eduardo Rodrigues, Srinagesh Sharma, Roberto Estevao, Maria Angels de Luis Balaguer, Jessica Wolk, Rafael Padilha, Leonardo Nunes, Shobana Balakrishnan, Songwu Lu, Ranveer Chandra
+  - Keyword: Human-AI Hybrid Framework, Efficient, Alignment, LLMs
+
+- [Equilibrate RLHF: Towards Balancing Helpfulness-Safety Trade-off in Large Language Models](https://arxiv.org/abs/2502.11555)
+  - Yingshui Tan, Yilei Jiang, Yanshi Li, Jiaheng Liu, Xingyuan Bu, Wenbo Su, Xiangyu Yue, Xiaoyong Zhu, Bo Zheng
+  - Keyword: Safety, Framework, Adaptive Message-wise Alignment Method, LLMs
+
 - [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391)
   - Yi-Fan Zhang, Tao Yu, Haochen Tian, Chaoyou Fu, Peiyan Li, Jianshu Zeng, Wulin Xie, Yang Shi, Huanyu Zhang, Junkang Wu, Xue Wang, Yibo Hu, Bin Wen, Fan Yang, Zhang Zhang, Tingting Gao, Di Zhang, Liang Wang, Rong Jin, Tieniu Tan
   - Keyword: Critique-based Reward Model, Dynamic Reward, Dataset
   - Code: [Official](https://github.com/Kwai-YuanQi/MM-RLHF)
+ 
+- [Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback](https://arxiv.org/abs/2501.12895)
+  - Yafu Li, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng
+  - Keyword: Test-Time Optimization, Preference Learning, Iterative Feedback
+  - Code: [Official](https://github.com/yafuly/TPO)
  
 - [Segmenting Text and Learning Their Rewards for Improved RLHF in Language Model](https://arxiv.org/abs/2501.02790)
   - Yueqin Yin, Shentao Yang, Yujia Xie, Ziyi Yang, Yuting Sun, Hany Awadalla, Weizhu Chen, and Mingyuan Zhou
@@ -98,6 +133,21 @@ format:
   - Code: [Official](https://github.com/OpenRLHF/OpenRLHF/blob/main/examples/scripts/train_reinforce_llama_ray.sh)
 
 ### 2024
+- [DPO Meets PPO: Reinforced Token Optimization for RLHF](https://arxiv.org/abs/2404.18922)
+  - Han Zhong, Zikang Shan, Guhao Feng, Wei Xiong, Xinle Cheng, Li Zhao, Di He, Jiang Bian, Liwei Wang
+  - Keyword: Token-wise Reward, DPO, PPO, RLHF
+  - Code: [Official](https://github.com/zkshan2002/RTO)
+
+- [Reward-Augmented Data Enhances Direct Preference Alignment of LLMs](https://arxiv.org/abs/2410.08067)
+  - Shenao Zhang, Zhihan Liu, Boyi Liu, Yufeng Zhang, Yingxiang Yang, Yongfei Liu, Liyu Chen, Tao Sun, Zhaoran Wang
+  - Keyword: Reward-Augmented Data, DPO, LLMs
+  - Code: [Official](https://github.com/shenao-zhang/reward-augmented-preference)
+
+- [The Accuracy Paradox in RLHF: When Better Reward Models Don't Yield Better Language Models](https://aclanthology.org/2024.emnlp-main.174/)
+  - Yanjun Chen, Dawei Zhu, Yirong Sun, Xinghao Chen, Wei Zhang, Xiaoyu Shen
+  - Keyword: Reward Model Evaluation, Accuracy Paradox, LLM Alignment
+  - Code: [Official](https://github.com/EIT-NLP/AccuracyParadox-RLHF)
+
 - [Align Anything: Training All-Modality Models to Follow Instructions with Language Feedback](https://arxiv.org/abs/2412.15838)
   - Jiaming Ji, Jiayi Zhou, Hantao Lou, Boyuan Chen, Donghai Hong, Xuyao Wang, Wenqi Chen, Kaile Wang, Rui Pan, Jiahao Li, Mohan Wang, Josef Dai, Tianyi Qiu, Hua Xu, Dong Li, Weipeng Chen, Jun Song, Bo Zheng, Yaodong Yang
   - Keyword: Multi-modality Alignment, Dataset, Training-evaluation Framework
@@ -283,8 +333,24 @@ format:
 - [Improving Reinforcement Learning from Human Feedback with Efficient Reward Model Ensemble](https://arxiv.org/abs/2401.16635v2)
   - Shun Zhang, Zhenfang Chen, Sunli Chen, Yikang Shen, Zhiqing Sun, Chuang Gan
   - Keywords: RLHF, Reward Ensemble, Efficient Ensemble Method
+  
+- [RIME: Robust Preference-based Reinforcement Learning with Noisy Human Preferences](https://arxiv.org/abs/2402.17257)
+  - Jie Cheng, Gang Xiong, Xingyuan Dai, Qinghai Miao, Yisheng Lv, Fei-Yue Wang
+  - Keyword: 
+  - Code: [official](https://github.com/CJReinforce/RIME_ICML2024)
+  
+- [Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback](https://arxiv.org/abs/2402.02423)
+  - Yifu Yuan, Jianye Hao, Yi Ma, Zibin Dong, Hebin Liang, Jinyi Liu, Zhixin Feng, Kai Zhao, Yan Zheng
+  - Keyword: 
+  - Code: [official](https://github.com/pickxiguapi/Uni-RLHF-Platform)
+  - Dataset: [official](https://uni-rlhf.github.io/)
 
 ### 2023
+- [The Trickle-down Impact of Reward (In-)consistency on RLHF](https://arxiv.org/abs/2309.16155)
+  - Lingfeng Shen, Sihao Chen, Linfeng Song, Lifeng Jin, Baolin Peng, Haitao Mi, Daniel Khashabi, Dong Yu
+  - Keyword: Reward model, RLHF, Reward hacking
+  - Code: [official](https://github.com/shadowkiller33/Contrast-Instruction)
+
 - [A General Theoretical Paradigm to Understand Learning from Human Preferences](https://arxiv.org/abs/2310.12036)
   - Mohammad Gheshlaghi Azar, Mark Rowland, Bilal Piot, Daniel Guo, Daniele Calandriello, Michal Valko, Rémi Munos
   - Keywords: RLHF, Pairwise Preference
@@ -313,11 +379,6 @@ format:
   - Yann Dubois, Chen Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy S. Liang, Tatsunori B. Hashimoto
   - Keyword: RLHF, Simulation Framework
   - Code: [official](https://github.com/tatsu-lab/alpaca_farm)
-
-- [Preference Ranking Optimization for Human Alignment](https://arxiv.org/pdf/2306.17492)
-  - Feifan Song, Bowen Yu, Minghao Li, Haiyang Yu, Fei Huang, Yongbin Li, Houfeng Wang
-  - Keyword: Preference Ranking Optimization
-  - Code: [official](github.com/AlibabaResearch/DAMO-ConvAI/tree/main/PRO)
 
 - [Adversarial Preference Optimization](https://arxiv.org/abs/2311.08045)
   - Pengyu Cheng, Yifan Yang, Jian Li, Yong Dai, Nan Du
@@ -389,7 +450,7 @@ format:
   - Jian Hu, Li Tao, June Yang, Chandler Zhou
   - Keyword: Decision Transformer-based Alignment, Offline Reinforcement Learning, RLHF System
 
-- [Preference Ranking Optimization for Human Alignment](https://arxiv.org/pdf/2306.17492.pdf)
+- [Preference Ranking Optimization for Human Alignment](https://arxiv.org/pdf/2306.17492)
   - Feifan Song, Bowen Yu, Minghao Li, Haiyang Yu, Fei Huang, Yongbin Li and Houfeng Wang
   - Keyword: Supervised Human Preference Alignment, Preference Ranking Extension
   - Code: [official](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/PRO)
@@ -510,6 +571,13 @@ format:
   - Joseph Early, Tom Bewley, Christine Evers, Sarvapali Ramchurn
   - Keyword: Reward Modelling (RLHF), Non-Markovian, Multiple Instance Learning, Interpretability
   - Code: [official](https://github.com/JAEarly/MIL-for-Non-Markovian-Reward-Modelling)
+- [SURF: Semi-supervised Reward Learning with Data Augmentation for Feedback-efficient Preference-based Reinforcement Learning](https://arxiv.org/abs/2203.10050)
+  - Jongjin Park, Younggyo Seo, Jinwoo Shin, Honglak Lee, Pieter Abbeel, Kimin Lee
+  - Keyword: Semi-supervised Reward Learning, Preference Data Augmentation, RLHF Efficiency
+- [Reward Uncertainty for Exploration in Preference-based Reinforcement Learning](https://arxiv.org/abs/2205.12401)
+  - Xinran Liang, Katherine Shu, Kimin Lee, Pieter Abbeel
+  - Keyword: Preference-based RL (PbRL), Exploration, Reward Uncertainty, Feedback Efficiency
+  - Code: [official](https://github.com/rll-research/rune)
 
 ### 2021
 - [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/abs/2112.09332) (WebGPT)
@@ -525,6 +593,14 @@ format:
   - Keyword:  The success of policy gradient is because of reward rather than the shape of output distribution, Machine Translation, NMT, DOmain Adaption
   - Code: [official](https://github.com/samuki/reinforce-joey)
   - Dataset: [WMT15](https://www.statmt.org/wmt15/index.html), [IWSLT14](https://sites.google.com/site/iwsltevaluation2014/mt-track)
+- [PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training](https://arxiv.org/abs/2106.05091)
+  - Kimin Lee, Laura Smith, Pieter Abbeel
+  - Keyword: Preference-based RL (PbRL), Data Efficiency, Unsupervised Pretraining, Reward Relabeling
+  - Code: [official](https://github.com/rll-research/BPref)
+- [B-Pref: Benchmarking Preference-Based Reinforcement Learning](https://arxiv.org/abs/2111.03026)
+  - Kimin Lee, Laura Smith, Anca Dragan, Pieter Abbeel
+  - Keyword: Benchmark, Preference-based RL, Simulated Human Feedback, Robustness Evaluation
+  - Code: [official](https://github.com/rll-research/BPref)
 
 ### 2020 and before
 
@@ -563,6 +639,7 @@ format:
   - Keyword: Decision is influenced by current policy rather than human feedback, Learn from policy dependent feedback that converges to a local optimal
 
 ## Codebases
+
 ```
 format:
 - [title](codebase link) [links]
@@ -570,11 +647,17 @@ format:
   - keyword
   - experiment environments, datasets or tasks
 ```
+
+- [Reinforcement Learning from Human Feedback (RLHF) in Notebooks](https://github.com/ash80/RLHF_in_notebooks)
+  - Ashwani Kumar
+  - step-by-step, Video tutorial, Jupyter notebooks, GPT-2, Reward Model, PPO, Pedagogical
+  - Dataset: [stanfordnlp/sst2](https://huggingface.co/datasets/stanfordnlp/sst2)
+  - Task: Generating text with positive sentiment
+  - Env: Google Colab
 - [veRL: Volcano Engine Reinforcement Learning for LLM](https://github.com/volcengine/verl)
   - ByteDance Seed MLSys Team & HKU: Guangming Sheng, Chi Zhang, Zilingfeng Ye, Xibin Wu, Wang Zhang, Ru Zhang, Yanghua Peng, Haibin Lin, Chuan Wu
   - Keyword: Flexible, Efficient, RLHF framework
   - Tasks: RLHF, Reasoning tasks including math and code.
-
 - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
   - OpenRLHF
   - Keyword: 70B, RLHF, DeepSpeed, Ray, vLLM
@@ -707,6 +790,10 @@ format:
 - [Weixun Wang] [Overview of RL(HF)+LLM](https://github.com/wwxFromTju/wwxFromTju.github.io/blob/master/slide/RL(HF)%2BLLM%E7%9A%84%E7%89%87%E9%9D%A2%E8%84%89%E7%BB%9C.JPG)
 - [Lilian Weng] [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)
 
+
+## Books
+- [Reinforcement Learning from Human Feedback by Nathan Lambert](https://rlhfbook.com/)
+- [Reinforcement Learning for Business](https://www.manning.com/books/reinforcement-learning-for-business)
 
 ## Other Language Support
 
